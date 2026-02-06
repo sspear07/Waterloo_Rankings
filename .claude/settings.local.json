@@ -9,7 +9,23 @@
       "Bash(npm create:*)",
       "Bash(npm install)",
       "Bash(npm run build:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(git checkout:*)",
+      "WebFetch(domain:www.amazon.com)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/parse-amazon-reviews.js:*)",
+      "Bash(npx vite build)",
+      "Bash(test:*)",
+      "Bash(node -e \"require\\(''dotenv''\\).config\\(\\); const keys = [''OPENAI_API_KEY'',''VITE_SUPABASE_URL'',''SUPABASE_SERVICE_ROLE_KEY'']; keys.forEach\\(k => console.log\\(k + '': '' + \\(process.env[k] ? ''set \\('' + process.env[k].slice\\(0,8\\) + ''...\\)'' : ''MISSING''\\)\\)\\)\")",
+      "Bash(node -e \"require\\(''dotenv''\\).config\\(\\); const keys = [''OPENAI_API_KEY'',''VITE_SUPABASE_URL'',''SUPABASE_SERVICE_ROLE_KEY'']; keys.forEach\\(k => console.log\\(k + '': '' + \\(process.env[k] ? ''set'' : ''MISSING''\\)\\)\\)\")",
+      "Bash(node scripts/upload-to-supabase.js:*)",
+      "Bash(npx vite:*)",
+      "Bash(node -e \"\nimport ''dotenv/config'';\nimport { createClient } from ''@supabase/supabase-js'';\nconst supabase = createClient\\(process.env.VITE_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY\\);\nconst { data } = await supabase.from\\(''flavors''\\).select\\(''name, image_url''\\).order\\(''name''\\);\ndata.forEach\\(f => console.log\\(f.name + '' => '' + f.image_url\\)\\);\n\")",
+      "Bash(curl:*)",
+      "Bash(node scripts/analyze-sentiment.js:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git merge:*)"
     ]
   }
 }
