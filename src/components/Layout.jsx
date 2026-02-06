@@ -6,9 +6,9 @@ function Layout({ children }) {
       <header className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <Link to="/" className="flex items-center gap-3">
-            <span className="text-2xl">🥤</span>
+            <img src="/logo.png" alt="Logo" className="h-32 w-32 object-contain" />
             <h1 className="text-xl font-bold text-slate-800">
-              Waterloo Seltzer Rankings
+              Waterloo Rankings
             </h1>
           </Link>
         </div>
