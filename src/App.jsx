@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
@@ -12,6 +13,7 @@ function App() {
         <Route path="/vote/:office" element={<Vote />} />
         <Route path="/results/:office" element={<Results />} />
       </Routes>
+      <Analytics />
     </Layout>
   )
 }
