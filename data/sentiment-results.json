@@ -1,0 +1,504 @@
+{
+  "sentiments": {
+    "Lemon-Lime": {
+      "sentiment_score": 0.7,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think the lemon-lime flavor is crisp and refreshing, with a nice fizzy mouthfeel. It's a good alternative to sugary drinks like 7up or Sprite, and some even say it tastes great as a beer substitute.",
+      "avg_rating": 4.44,
+      "review_count": 9
+    },
+    "Orange Vanilla": {
+      "sentiment_score": 0.4,
+      "sentiment_label": "Positive",
+      "summary": "Most people love the orange vanilla flavor, saying it's a nice hint of orange softened by vanilla. But some think it just tastes like soda water, which isn't for everyone.",
+      "avg_rating": 4.44,
+      "review_count": 9
+    },
+    "Grape": {
+      "sentiment_score": 0.6,
+      "sentiment_label": "Positive",
+      "summary": "Most people think it tastes like grape soda without the sugar and artificial colors. A few mention a lingering aftertaste, but overall, it's a hit for those craving fizzy grape flavor.",
+      "avg_rating": 4.67,
+      "review_count": 9
+    },
+    "Blackberry Lemonade": {
+      "sentiment_score": 0.2,
+      "sentiment_label": "Neutral",
+      "summary": "Some people think it tastes like a refreshing summer drink, while others say it has a faint flavor or even smells like cough syrup. Overall, it's a mixed bag of opinions on the taste.",
+      "avg_rating": 4.13,
+      "review_count": 16
+    },
+    "Guava Berry": {
+      "sentiment_score": 0.7,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think Guava Berry tastes bright and crisp, with one calling it one of the best flavors they've had. It's a yummy alternative to plain water, and some even compare it to old school grape soda.",
+      "avg_rating": 4.5,
+      "review_count": 4
+    },
+    "Summer Berry": {
+      "sentiment_score": 0.4,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think it tastes good and refreshing, with a nice berry flavor that's not too sweet. A few found it a bit flat or less flavorful compared to other options, though.",
+      "avg_rating": 4.31,
+      "review_count": 13
+    },
+    "Strawberry": {
+      "sentiment_score": 0.8,
+      "sentiment_label": "Positive",
+      "summary": "People really dig the strawberry flavor, saying it's fragrant and has a real taste compared to other sparkling waters that just taste like club soda. It's refreshing and enjoyable, with some even comparing it to a wine cooler.",
+      "avg_rating": 4.71,
+      "review_count": 7
+    },
+    "Raspberry Nectarine": {
+      "sentiment_score": 0.6,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think it tastes great, with a unique flavor combo of raspberry and nectarine. Some say it's a tasty, healthier option without the sugar calories.",
+      "avg_rating": 4.33,
+      "review_count": 6
+    },
+    "Black Cherry": {
+      "sentiment_score": 0.6,
+      "sentiment_label": "Positive",
+      "summary": "Most folks dig the Black Cherry flavor, calling it 'great' and 'nice' with a 'fresh taste.' Just a heads up, it’s not sweetened, so don’t expect a sugary cherry soda vibe.",
+      "avg_rating": 4.45,
+      "review_count": 11
+    },
+    "Peach": {
+      "sentiment_score": 1,
+      "sentiment_label": "Positive",
+      "summary": "Reviewers rave about the peach flavor, calling it 'peachy' and 'tasty' with a refreshing sparkly vibe. Many are surprised by how much they enjoy a sugar-free drink that still delivers on flavor.",
+      "avg_rating": 5,
+      "review_count": 8
+    },
+    "Lemon Italian Ice": {
+      "sentiment_score": 0.8,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think it tastes great, with some saying it's surprisingly good compared to other brands. They appreciate the flavor and find it a good deal.",
+      "avg_rating": 4.5,
+      "review_count": 4
+    },
+    "Cherry Limeade": {
+      "sentiment_score": 1,
+      "sentiment_label": "Positive",
+      "summary": "Reviewers are all about that 'flavortown' vibe, claiming Waterloo's Cherry Limeade is the best sparkling water out there. It's got a refreshing taste that really hits the spot.",
+      "avg_rating": 5,
+      "review_count": 2
+    },
+    "Ruby Red Tangerine": {
+      "sentiment_score": 0.4,
+      "sentiment_label": "Positive",
+      "summary": "Most reviewers think the Ruby Red Tangerine flavor is great, with some even putting it up there with Aldi's brand. It's described as amazing and delicious, but there's a mix of opinions on the packaging and delivery.",
+      "avg_rating": 4,
+      "review_count": 5
+    },
+    "Tropical Fruit": {
+      "sentiment_score": 0.8,
+      "sentiment_label": "Positive",
+      "summary": "This stuff tastes like a mini-vacation in a can, bringing bright, tropical vibes that make you forget you're not on a beach. It's bubbly and fruity without any weird aftertaste, perfect for when plain water just won't do.",
+      "avg_rating": 4.6,
+      "review_count": 5
+    },
+    "Watermelon": {
+      "sentiment_score": 0,
+      "sentiment_label": "Neutral",
+      "summary": "The reviews don't really dive into the flavor specifics, but one person loves it despite the packaging issues. No vivid taste descriptions or comparisons were shared.",
+      "avg_rating": 3,
+      "review_count": 1
+    }
+  },
+  "notable_reviews": [
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "Crisp and Refreshing",
+      "flavor": "Lemon-Lime",
+      "body": "This 12-pack of Waterloo Sparkling Water in lemon-lime flavor arrived well-packaged and properly chilled when opened. The cans are standard 12 oz size with easy-to-open tops, and the packaging clearly lists the ingredients and nutritional information, showing zero calories and no added sugars.\n\nThe lemon-lime flavor is noticeable but not overpowering. It has a crisp, fizzy mouthfeel typical of carbonated water, with subtle citrus notes throughout. I noticed the carbonation level stayed consistent from the first sip to the last, and it didn’t go flat quickly when left open for a short period.\n\nThe absence of sweeteners or artificial flavors is clear in the taste — it doesn’t have a sweet aftertaste or heaviness that some flavored waters can have. The cans are convenient for grab-and-go use, fitting easily into a cooler or fridge shelf. After trying multiple cans over a few days, the flavor and fizziness remained consistent across the pack.\n\nOverall, this sparkling water provides a citrus-flavored, fizzy drink option without calories, and it can be a refreshing choice with meals or as a standalone beverage."
+    },
+    {
+      "rating": 4,
+      "date": "December 19, 2025",
+      "title": "Recommend",
+      "flavor": "Lemon-Lime",
+      "body": "Really like this brand of sparkling water. Lemon lime flavor is great. No sugar so good alternative to 7up or sprite for upset stomach."
+    },
+    {
+      "rating": 5,
+      "date": "January 13, 2026",
+      "title": "Flavored water. No Sweetener",
+      "flavor": "Lemon-Lime",
+      "body": "I do like this brand. There's no sweeteners. But I've found it substitutes a cold beer very well."
+    },
+    {
+      "rating": 5,
+      "date": "December 21, 2025",
+      "title": "Waterloo is the best sparkling water e.v.e.r.",
+      "flavor": "Lemon-Lime",
+      "body": "Many years ago I surveyed the top 5 brands of sparkling water. Waterloo is the one you want to buy. Did you know that companies do not have to include harsh chemicals in the ingredient list? Do your research. This is the only brand I buy."
+    },
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "Love this stuff!",
+      "flavor": "Lemon-Lime",
+      "body": "This is delicious!"
+    },
+    {
+      "rating": 5,
+      "date": "December 31, 2025",
+      "title": "Simply the best",
+      "flavor": "Orange Vanilla",
+      "body": "We drink a lot of Waterloo and in South Florida, we fight for the good, tropical flavors. We fell in love with the orange vanilla then couldn’t get it. It’s always sold out. Then I learn I can get it here, delivered to my door immediately. I’m so excited and I hope they keep it in stock. The combination of the orange with the vanilla is amazing. It’s not a Fanta orange but rather a hint of orange because the vanilla softens it. Definitely our favorite"
+    },
+    {
+      "rating": 5,
+      "date": "January 24, 2026",
+      "title": "Refreshing, nice flavor and super value.",
+      "flavor": "Orange Vanilla",
+      "body": "Love the subtle, clean taste. Great alternative to soda pop when you want a carbonated drink. I drink one almost every day. Great value and fast delivery!!!"
+    },
+    {
+      "rating": 5,
+      "date": "January 24, 2026",
+      "title": "Refreshing, nice flavor and super value.",
+      "flavor": "Orange Vanilla",
+      "body": "Love the subtle, clean taste. Great alternative to soda pop when you want a carbonated drink. I drink one almost every day. Great value and fast delivery!!!"
+    },
+    {
+      "rating": 4,
+      "date": "February 3, 2026",
+      "title": "Tastes like soda water. Yuck!",
+      "flavor": "Orange Vanilla",
+      "body": "Tastes like soda water. Box was soaked. Not sure if it was from snow or a leaky can. They did wrap the box in plastic."
+    },
+    {
+      "rating": 4,
+      "date": "June 13, 2025",
+      "title": "Great taste, great price, BUT…",
+      "flavor": "Orange Vanilla",
+      "body": "…a certain number of cans in the shipment always arrive with the top so dented you can’t open it with the tab and drink it straight from the can. For instance, in the last shipment I received, 5 out of 12 cans were damaged this way. And this does NOT happen when I order similar products from other soda makers, so the problem is clearly not the deliverers but Waterloo itself.\n\nSo go ahead and order this, but expect to have to open some of the cans with a can opener and pour it into a glass."
+    },
+    {
+      "rating": 5,
+      "date": "December 17, 2025",
+      "title": "Tastes like grape soda to me!",
+      "flavor": "Grape",
+      "body": "I love fizzy water, and Waterloo is one of my favorite brands. I have the grape on autoship because I love it so much and the price is so much lower here on Amazon than it is for me locally. To me the flavor is similar to grape soda without all the sugar and artificial colors. I can count on Waterloo for great quality and great taste. Now if they'd just bring back the pineapple, I'd never buy another brand!"
+    },
+    {
+      "rating": 4,
+      "date": "January 29, 2026",
+      "title": "Good Grape But Aftertaste",
+      "flavor": "Grape",
+      "body": "Nice to find a grape water, and it is fizzy and tasty. Unfortunately, it has a lingering aftertaste."
+    },
+    {
+      "rating": 5,
+      "date": "January 19, 2026",
+      "title": "I like it.",
+      "flavor": "Grape",
+      "body": "I really like this stuff. I was in a quandary. I can’t drink alcohol or soda pop. Most of the “water” drinks on the market had additives, artificial sweeteners, or some fruity taste enhancements. I found Waterloo Grape by accident. The grape flavor is mild but enough to give the drink flavor, there are no other additives or salt, and the carbonation is crazy. I like it."
+    },
+    {
+      "rating": 5,
+      "date": "January 18, 2026",
+      "title": "Strong Grape flavor",
+      "flavor": "Grape",
+      "body": "Strong grape flavor, delicious, no sugar, definitely recommend!"
+    },
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "My go to grape soda!",
+      "flavor": "Grape",
+      "body": "As a child I loved grape soda. I know much of the “flavor” comes from smell and not taste but I still love these. Love the bubbles. Helps me think I’m satisfying my soda urge. I Keep them coming once a month. And they’re a good price, especially on subscription."
+    },
+    {
+      "rating": 3,
+      "date": "January 21, 2026",
+      "title": "Great price - meh flavors",
+      "flavor": "Blackberry Lemonade",
+      "body": "As a sparkling/carbonated water, it does the job. It's a great deal, and each time I have had it delivered, it's come intact - no problem. So far I have had the peach, strawberry, and blackberry lemonade flavors. To me, the strawberry and peach flavors were in the smell alone. Open the can \"ah, that smells like peach/strawberry\". Take a sip - \"where did the flavor go?\". It's there but very faint.\n\nFor blackberry lemonade.... it's terrible to me. Open the can and it smells like cough syrup. Take a sip, and it tastes like fizzy cough syrup. So far this is the worst flavor I've tasted.\n\nI might try other flavors but my hopes aren't too high. But I like sparkling water, and all the flavors can't be that bad, right?"
+    },
+    {
+      "rating": 5,
+      "date": "January 21, 2024",
+      "title": "A Refreshing Twist on Hydration – Waterloo's Blackberry Lemonade Sparkling Water",
+      "flavor": "Blackberry Lemonade",
+      "body": "I recently purchssed this blackberry lemonade sparkling water from Waterloo and I must say, it's a game changer for those of us looking to quench our thirst with something a bit more exciting than plain old water. The first thing I noticed was the burst of flavor. The blackberry and lemonade combination is not only refreshing but also perfectly balanced. It's like a summer afternoon in a can, minus the pesky bees.\n\nWhat I really appreciate about this sparkling water is its commitment to health. Zero calories, zero sugar, and zero artificial sweeteners? It's like finding a unicorn in the world of flavored beverages. It's reassuring to enjoy a drink that doesn't make me feel like I'm compromising on my health goals. Plus, with no sodium, it's a great option for those who are watching their salt intake.\n\nNow, let's talk about the fizz. It's just right – not too overpowering but enough to give that satisfying sparkling sensation. However, I did find that the fizziness doesn't last very long once the can is opened. So, it's best enjoyed soon after cracking it open, unless you prefer your sparkling water on the flatter side, which I guess could be a thing for some people.\n\nOne minor quibble is the aftertaste. While not overly pronounced, there's a slight aftertaste that might not appeal to everyone. It's not a dealbreaker for me, but worth mentioning for those with sensitive taste buds.\n\nIn summary, Waterloo's blackberry lemonade sparkling water is a delightful treat for anyone looking for a zero-guilt, flavorful drink. It's a fantastic alternative to sugary sodas and a great way to stay hydrated. The balance of flavors and the right amount of carbonation make it a standout choice. Just remember to enjoy it quickly after opening for the best experience!"
+    },
+    {
+      "rating": 3,
+      "date": "February 4, 2026",
+      "title": "3/5",
+      "flavor": "Blackberry Lemonade",
+      "body": "Not delicious, but not bad. If you just want to carbonation without calories and a faint taste of … well you can’t quite tell because it’s so mild. Overall I’d drink it when I’m extremely thirst but it’s definitely the last thing we go for."
+    },
+    {
+      "rating": 4,
+      "date": "October 29, 2025",
+      "title": "Will reorder!",
+      "flavor": "Blackberry Lemonade",
+      "body": "Really good quality wish it had more taste but has helped cut sodas. Refreshing on a hot day"
+    },
+    {
+      "rating": 3,
+      "date": "December 30, 2025",
+      "title": "Good flavor, but tired of damaged cans",
+      "flavor": "Blackberry Lemonade",
+      "body": "I purchased these many times on Amazon and almost every time several of the cans are damaged. I finally asked for a refund on my last purchase. I like the taste, but tired of the damaged cans. Not sure if its the fault of the manufacturer or Amazon's storage, but I'll be purchasing elsewhere."
+    },
+    {
+      "rating": 4,
+      "date": "December 28, 2025",
+      "title": "Yummy Alternative to Water",
+      "flavor": "Guava Berry",
+      "body": "It doesn’t have a bunch of crap in it and it’s my favorite flavor of the Waterloo brand."
+    },
+    {
+      "rating": 5,
+      "date": "January 19, 2026",
+      "title": "Very tasty",
+      "flavor": "Guava Berry",
+      "body": "We really enjoy this flavor bright and crisp. Cans came undamaged ready to drink. Very good"
+    },
+    {
+      "rating": 5,
+      "date": "December 7, 2025",
+      "title": "Great Flavor",
+      "flavor": "Guava Berry",
+      "body": "This flavor is one of the best I’ve had so far. Also, the pack is much bigger than the ones at my local Walmart."
+    },
+    {
+      "rating": 4,
+      "date": "January 16, 2026",
+      "title": "A tasty inexpensive option!",
+      "flavor": "Summer Berry",
+      "body": "The flavor is about what I expected- tasty but not too sweet. Refreshing and no extra sugar. I would recommend it. And I’ll probably try some others too as these are relatively inexpensive compared to some.\n\nI had a few cans that were damaged but no leakage. This is seen in several reviews of this product, but I am unsure why these cans seem to have this effect when other types don’t seem to have the issue. What I haven’t seen is a reference to a heavy incense type smell on the packaging. It was obvious as soon as the Amazon box was opened. Even the cans carried a light scent. I would recommend to the seller that this should be avoided. There are those who have sensitivities to scents and it could actually cause a problem for people."
+    },
+    {
+      "rating": 4,
+      "date": "January 20, 2026",
+      "title": "Tasty. Not too weak/strong",
+      "flavor": "Summer Berry",
+      "body": "Good choice if you're looking to cut down on soda or want to try some different sparkling water."
+    },
+    {
+      "rating": 4,
+      "date": "December 15, 2025",
+      "title": "Decent product, just not as flavorful as some of their other products",
+      "flavor": "Summer Berry",
+      "body": "Some of their other flavors are better than this one - nothing technically wrong with the product, just not a particularly enjoyable flavor (personal preferences will vary between people, of course)."
+    },
+    {
+      "rating": 3,
+      "date": "January 2, 2026",
+      "title": "Not a fan of this flavor",
+      "flavor": "Summer Berry",
+      "body": "I am not a fan of this flavor. There was almost a can flatness or stale taste.\n\nI was impressed by the value for the money in the package size of 12."
+    },
+    {
+      "rating": 5,
+      "date": "September 25, 2025",
+      "title": "Great tasting sparkling water. Please pack product better for mailing. Ty",
+      "flavor": "Summer Berry",
+      "body": "Love the taste. The price used to be lower than anywhere I could I buy where I live but not so anymore. However, it’s not so ridiculously overpriced that I won’t buy it from Amazon. Sometimes, it’s hard to find this flavor at stores. I , for the life of me, can’t understand why everyone doesn’t sell it in a 12 pk quantity. I wish Amazon would pack this water better & separately because almost every delivery, the box is damaged & at least 1-4 cans are smashed, the cans are empty & sharp & jagged & anything mailed with it is destroyed,from either water damage &/or the weight of the water crashing around freely in the box."
+    },
+    {
+      "rating": 5,
+      "date": "January 24, 2026",
+      "title": "Excellent",
+      "flavor": "Strawberry",
+      "body": "This is one of the sparkling waters. I drink that actually has a flavor. Some of the other ones just taste like club soda that say, just drove by a lemon. This is something I buy all the time and I hope they don’t discontinue this flavor."
+    },
+    {
+      "rating": 5,
+      "date": "January 18, 2026",
+      "title": "Must try flavor!",
+      "flavor": "Strawberry",
+      "body": "Waterloo is our favorite seltzer! This is a must try flavor."
+    },
+    {
+      "rating": 5,
+      "date": "January 9, 2026",
+      "title": "Pretty tasty",
+      "flavor": "Strawberry",
+      "body": "Best flavored carbonated water I have considering it's sugar-free, the strawberry flavor is more fragrant than it is potent."
+    },
+    {
+      "rating": 4,
+      "date": "March 9, 2025",
+      "title": "Simply the best",
+      "flavor": "Strawberry",
+      "body": "This is the best soda water brand out there. Just enough fizz to take the enamel right off your teeth,just kidding,! The flavors are spot on and have so much long lasting carbonation. I can't believe it's FREE from SUGAR. YES, THAT'S RIGHT IT ALSO SUGAR FREE AND SODIUM FREE. I generally order a variety of cases, kids love it. The ROSE ALL DAY flavor is remarkably so quenching and It taste just like a wine cooler and get this! There's NO ALCOHOL!!! YAH BABY.. The price is unbelievable. No more sugar highs for the kids and adults. The wiff loves to mix it into cocktails in the summer time out by the pool. All the neighbors are asking , what what what is this refreshing drink? And I say its Waterloo"
+    },
+    {
+      "rating": 5,
+      "date": "January 29, 2026",
+      "title": "Change the delivery packaging",
+      "flavor": "Raspberry Nectarine",
+      "body": "The product is good however when it’s delivered, the packaging is open because they deliver it in the bag and not a box which is stupid."
+    },
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "Unique sparkling water flavor",
+      "flavor": "Raspberry Nectarine",
+      "body": "Love Waterloo it's supposedly a cleaner healthier brand than the competition. Love the flavor combo of fruit without the sugar calories. Would buy again. Wish it was more cost effective."
+    },
+    {
+      "rating": 4,
+      "date": "November 22, 2025",
+      "title": "Great healthy alternative to plain water.",
+      "flavor": "Black Cherry",
+      "body": "I hate water and I bought these to help me drink more of it. These are great for that purpose but I want to share so others will know they are not sweetened by the fruit. These drinks are 100% healthy with no sugar. So when you take that first sip it will surprise you. My husband thought he would add sugar to his and it fizzed out of the can like a vinegar and baking soda volcano.\n\nI like them and they are helping me drink water."
+    },
+    {
+      "rating": 5,
+      "date": "January 8, 2026",
+      "title": "Great taste",
+      "flavor": "Black Cherry",
+      "body": "Good but grape is still my favorite"
+    },
+    {
+      "rating": 5,
+      "date": "January 4, 2026",
+      "title": "Nice",
+      "flavor": "Black Cherry",
+      "body": "I enjoy the flavor and fresh taste of this sparkling water."
+    },
+    {
+      "rating": 5,
+      "date": "December 30, 2025",
+      "title": "Drink",
+      "flavor": "Black Cherry",
+      "body": "Way healthier than sugar drenched soda great mixer"
+    },
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "Waterloo seltzer water",
+      "flavor": "Black Cherry",
+      "body": "I like the Waterloo brand because I can truly taste the flavor."
+    },
+    {
+      "rating": 5,
+      "date": "October 18, 2024",
+      "title": "what I love about peach waterloo sparkling water and amazon bringing on time",
+      "flavor": "Peach",
+      "body": "I have this ordered every month but on occasion I'll find another new drink by waterloo , bubbly or simple truth that has awesome drinks and amazon has them all. Now I order peach because it's one of my favorites by waterloo, I get mango by bubbly because it's easy on my stomach and recently my favorite is lemon lime by some simple truth. Its a great drink that free of salt and sugar. It has no after taste of any sugars and sugars that are substitutes all three are great sparkling water. waterloo has strawberry, grape, lemon lime, peach, cherry limeade(thats my husbands fav) and black raspberry, cherry and a lot others in the waterloo selection some are even mixed with another one yet Im not into anything to busy. Bubbly I found mango so far to be great and some days I crave only that but right now im on a kick for simple truth lemon lime. You get the same amount of drinks 8 cans. same amount 12 ounces and you only pay 2:99$ for this but it could be a special because it's a new drink. strange thing is if I buy this item on amazon or any other site its more expensive but not that IM saying amazon isn't fair but right now the ralphs in mission valley is only charging 2:99 for that and it has so many other kinds but amazon sells them just in bulk so its a bit more expensive yet worth it. If given the chance try cucumber melon it's also really good. I dont like anything sweet so im always buying candy and dried fruit on amazon thats sour and tart and dried fruit not freeze dried candy I get that too but usually its sour beers, hot red tamale brand and tart and sour/ plus mixed berries and tarjin tamarindo get group. I dont always write reviews yet amazon is there and picks up the slack or honors something you ordered that was over night and if its late or you keep getting messages telling you if you dont receive your item by a certain time they'll send it to you immediately, if thats true I wouldn't know but I trust them and they also reimburse you although your getting the item but I suggest you sy no unless you want your items sent to you slower..LOL no Im joking they dont do that but if they send you your item no need to be reimbursed right? Okay don\\e with my review hope I could help btw your drinks come overnight. Good luck"
+    },
+    {
+      "rating": 5,
+      "date": "January 8, 2026",
+      "title": "Tasty! Love the flavor !!!!",
+      "flavor": "Peach",
+      "body": "Peach flavor will have you comin back !! Never thought I would be drinking a sugar free soda ..love it!"
+    },
+    {
+      "rating": 5,
+      "date": "January 16, 2026",
+      "title": "Refreshing",
+      "flavor": "Peach",
+      "body": "Great no sugar soda alternative, peachy and sparkly"
+    },
+    {
+      "rating": 5,
+      "date": "December 20, 2025",
+      "title": "Love Waterloos",
+      "flavor": "Peach",
+      "body": "Love the Waterloo Sparkling water, especially the peach flavor!"
+    },
+    {
+      "rating": 5,
+      "date": "November 8, 2025",
+      "title": "I love this peach flavor and you can choose to add sweetener or not",
+      "flavor": "Peach",
+      "body": "I definitely add stevia to this drink and it is one of my favorite peach drinks. It is always sold out at the store so i finally bought it online. Some reviews say that the product was beat up during shipment but mine arrived in perfect condition. In fact, it was even bubblewrapped."
+    },
+    {
+      "rating": 5,
+      "date": "January 26, 2026",
+      "title": "Tastes Great!!",
+      "flavor": "Lemon Italian Ice",
+      "body": "Surprisingly good flavor compared to other brands and Waterloo is a better price!"
+    },
+    {
+      "rating": 5,
+      "date": "January 26, 2026",
+      "title": "Tastes Great!!",
+      "flavor": "Lemon Italian Ice",
+      "body": "Surprisingly good flavor compared to other brands and Waterloo is a better price!"
+    },
+    {
+      "rating": 5,
+      "date": "January 28, 2026",
+      "title": "Go to flavortown",
+      "flavor": "Cherry Limeade",
+      "body": "Waterloo has the best water hands down"
+    },
+    {
+      "rating": 5,
+      "date": "January 28, 2026",
+      "title": "Go to flavortown",
+      "flavor": "Cherry Limeade",
+      "body": "Waterloo has the best water hands down"
+    },
+    {
+      "rating": 3,
+      "date": "October 24, 2025",
+      "title": "Amazing Water, but Poorly Packaged",
+      "flavor": "Ruby Red Tangerine",
+      "body": "The sparkling water itself? Excellent. Waterloo is easily my favorite sparkling water brand and their range of flavors is wonderful. I've purchased from in stores previously, but have had a hard time finding it again/different flavors, so I decided to order through Amazon. The reason it's getting 3 stars is because 2 of the 3 cases I ordered (all 3 were different flavors) came super damaged. The boxes were ripped open and I assumed they had spilled out because some of the cans were upright while others were upside down. Several cans from both of the damaged cases were totally messed up. Handling of the actual product and the packing of the product needs to be better."
+    },
+    {
+      "rating": 3,
+      "date": "November 30, 2025",
+      "title": "Great product, open box specials",
+      "flavor": "Ruby Red Tangerine",
+      "body": "Amazing product, but AMAZON always delivers these to us dented, bloated and sometimes the boxes are broken. That being said, we still buy them bc they're delicious. I honestly believe they buy the open box specials from Waterloo. There is no way this is the only Amazon product that consistently come broken."
+    },
+    {
+      "rating": 5,
+      "date": "November 6, 2025",
+      "title": "An Invisible Item. Amazing.",
+      "flavor": "Ruby Red Tangerine",
+      "body": "This is an amazing item. It is so special that I cannot see it with my own eyes, and I cannot feel it with my touch. It was supposed to be delivered yesterday, then delayed until this morning. I still cannot see or touch this product. This product is completely invisible on my front porch. How amazing."
+    },
+    {
+      "rating": 4,
+      "date": "November 9, 2024",
+      "title": "Bubbly, Tropical, and Almost a Mini-Vacation in a Can",
+      "flavor": "Tropical Fruit",
+      "body": "Waterloo Tropical Fruit Sparkling Water is a solid four-star refreshment that brings a burst of the tropics straight to your taste buds. The flavor is bright, fun, and just fruity enough to make you forget you’re not actually sitting on a beach somewhere (sadly, no palm trees included). With zero calories, zero sugar, and no weird aftertaste, it’s a great guilt-free choice for when plain water just won’t cut it.\n\nThe carbonation is on point, too—crisp and bubbly without being too aggressive. It’s perfect for sipping straight from the can or pouring over ice with a squeeze of lime for an extra zing. The only thing keeping it from five stars? It’s delicious but not quite life-changing. Still, it’s way better than a lot of flavored waters I’ve tried, and I’ll happily keep a few in the fridge for when I need a little tropical pick-me-up.\n\nPro tip from a guy who knows his sparkling water: Pair it with some fresh fruit slices or use it as a mixer for cocktails or mocktails. It’ll take your drink game up a notch. Four stars for a solid, feel-good fizz. Alright, alright, sparkle-right!"
+    },
+    {
+      "rating": 5,
+      "date": "January 4, 2026",
+      "title": "Best flavor",
+      "flavor": "Tropical Fruit",
+      "body": "Best flavor"
+    },
+    {
+      "rating": 5,
+      "date": "December 29, 2025",
+      "title": "Good!",
+      "flavor": "Tropical Fruit",
+      "body": "Good!"
+    },
+    {
+      "rating": 5,
+      "date": "December 23, 2025",
+      "title": "Value",
+      "flavor": "Tropical Fruit",
+      "body": "Great taste"
+    },
+    {
+      "rating": 3,
+      "date": "January 3, 2026",
+      "title": "Cans often arrive dented and unusable.",
+      "flavor": "Watermelon",
+      "body": "I love this stuff, but quite often the package is handled roughly in transit, and you may end up with dented and mangled cans."
+    }
+  ],
+  "analyzed_at": "2026-02-06T14:16:33.197Z"
+}

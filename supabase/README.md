@@ -114,6 +114,51 @@ INSERT INTO flavors (name, description, image_url) VALUES
 
 ---
 
+## Updating Public Sentiment Data
+
+The Internet Rankings page shows public sentiment from Amazon reviews. To refresh this data:
+
+### Prerequisites
+
+1. Set up environment variables in `.env`:
+   - `OPENAI_API_KEY` - For sentiment analysis
+   - `SUPABASE_SERVICE_ROLE_KEY` - From Supabase Settings > API
+
+2. Run the sentiment schema (first time only):
+   ```sql
+   -- Run supabase/sentiment-schema.sql in SQL Editor
+   ```
+
+### Refresh Sentiment Data
+
+```bash
+# Parse Amazon reviews from text file
+npm run sentiment:parse
+
+# Analyze sentiment with AI
+npm run sentiment:analyze
+
+# Upload results to Supabase
+npm run sentiment:upload
+
+# Or run all three at once:
+npm run sentiment:all
+```
+
+This process:
+1. Parses copy-pasted Amazon reviews from `scripts/amazon-reviews.txt`
+2. Uses AI to analyze sentiment and identify notable reviews
+3. Uploads results to `flavor_sentiment` and `flavor_comments` tables
+
+### Sentiment Tables
+
+| Table | Purpose |
+|-------|---------|
+| `flavor_sentiment` | Sentiment scores, avg ratings, and AI summaries per flavor |
+| `flavor_comments` | Notable Amazon reviews selected by AI |
+
+---
+
 ## Troubleshooting
 
 **"No active matchup found"** error on the site:

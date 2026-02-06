@@ -7,11 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sentiment:parse": "node scripts/parse-amazon-reviews.js",
+    "sentiment:analyze": "node scripts/analyze-sentiment.js",
+    "sentiment:upload": "node scripts/upload-to-supabase.js",
+    "sentiment:all": "npm run sentiment:parse && npm run sentiment:analyze && npm run sentiment:upload"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
     "@vercel/analytics": "^1.6.1",
+    "dotenv": "^16.4.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",

@@ -191,9 +191,20 @@ function formatMonth(ym) {
       {/* This Month's Results */}
       {monthlyResults && (
         <div>
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">
-            {officeName} - {formatMonth(getCurrentMonth())} Results
-          </h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-2xl font-bold text-slate-800">
+              {officeName} - {formatMonth(getCurrentMonth())} Results
+            </h2>
+            <Link
+              to="/internet-rankings"
+              className="inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors"
+            >
+              How does the internet rate them?
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+          </div>
 
           <div className="bg-white rounded-xl shadow-md p-6">
             <div className="text-center mb-6">
