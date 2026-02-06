@@ -1,8 +1,16 @@
 # Waterloo Seltzer Rankings
 
-A simple web app for employees to rank Waterloo seltzer flavors available in company fridges at Austin and Charlotte offices.
+A web app for employees to rank Waterloo seltzer flavors available in company fridges at Austin and Charlotte offices.
 
-Visit the site at: https://waterloorankings.vercel.app/
+**Live site:** [waterloorankings.vercel.app](https://waterloorankings.vercel.app/)
+
+---
+
+## Background
+
+My employer stocks Waterloo sparkling water in our office fridges, but each month they rotate in just two flavors per office. My coworkers and I would debate which flavors were best so I decided to settle the debate with this site. Now we have an official leaderboard, and the data can speak for itself.
+
+---
 
 ## Features
 
@@ -10,131 +18,78 @@ Visit the site at: https://waterloorankings.vercel.app/
 - Pick your favorite in a head-to-head matchup
 - Rate each flavor from 1-5 stars
 - View results and all-time leaderboard
-- Filter leaderboard by office
+- Filter leaderboard by office (Austin vs Charlotte)
 
-## Tech Stack
+---
 
-- **Frontend**: React 18 + Vite
-- **Styling**: Tailwind CSS
-- **Database**: Supabase (PostgreSQL)
-- **Charts**: Recharts
-- **Hosting**: Vercel (recommended)
+## How I Built It
 
-## Setup
+### Tech Stack
 
-### 1. Clone the Repository
+| Layer | Technology | Why I Chose It |
+|-------|------------|----------------|
+| **Frontend** | React 18 + Vite | Fast development, hot reload, modern tooling |
+| **Styling** | Tailwind CSS | Rapid UI development without writing custom CSS |
+| **Database** | Supabase (PostgreSQL) | Free tier, real-time capabilities, easy auth if needed later |
+| **Charts** | Recharts | Simple React-based charting for the leaderboard |
+| **Hosting** | Vercel | Seamless GitHub integration, automatic deployments |
+| **Analytics** | Vercel Analytics | Track engagement without complex setup |
 
-```bash
-git clone https://github.com/sspear07/Waterloo_Rankings.git
-cd Waterloo_Rankings
-npm install
-```
+### Database Design
 
-### 2. Set Up Supabase
+I designed three tables to handle the voting system:
 
-1. Create a free account at [supabase.com](https://supabase.com)
-2. Create a new project
-3. Go to **SQL Editor** and run the contents of `supabase/schema.sql`
-4. Go to **Settings > API** to get your project URL and anon key
+- **`flavors`** - Master list of all Waterloo flavors with names, descriptions, and images
+- **`monthly_matchups`** - Tracks which two flavors are available each month per office
+- **`votes`** - Stores individual votes with ratings and head-to-head picks
 
-### 3. Configure Environment Variables
+This structure allows for easy monthly updates and supports future features like ELO rankings based on head-to-head data.
 
-Create a `.env` file in the project root:
+### Vote Limiting Without User Accounts
 
-```
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
-```
+I wanted voting to be frictionless (no login required), but also prevent ballot stuffing. My solution:
 
-### 4. Run Locally
+1. Generate a unique voter ID on first visit and store it in localStorage
+2. Check against the database before showing the vote form
+3. If the voter ID already voted this month, redirect to results
 
-```bash
-npm run dev
-```
+This keeps honest people honest while avoiding the friction of user authentication.
 
-Visit `http://localhost:5173` in your browser.
+### Monthly Administration
 
-## Monthly Administration
+Each month I update the database with new flavor matchups via SQL queries. I documented the process in [`supabase/README.md`](./supabase/README.md) so it takes just a few minutes.
 
-Each month, you need to set up the new flavor matchups:
-
-### 1. Deactivate Previous Month's Matchups
-
-In Supabase SQL Editor:
-
-```sql
-UPDATE monthly_matchups SET is_active = false WHERE month = '2026-01';
-```
-
-### 2. Get Flavor IDs
-
-```sql
-SELECT id, name FROM flavors ORDER BY name;
-```
-
-### 3. Create New Matchups
-
-```sql
-INSERT INTO monthly_matchups (office, flavor_1_id, flavor_2_id, month, is_active) VALUES
-  ('austin', 'FLAVOR_1_UUID', 'FLAVOR_2_UUID', '2026-02', true),
-  ('charlotte', 'FLAVOR_3_UUID', 'FLAVOR_4_UUID', '2026-02', true);
-```
-
-### 4. Add New Flavors (if seasonal)
-
-```sql
-INSERT INTO flavors (name, description, image_url) VALUES
-  ('New Seasonal Flavor', 'A refreshing seasonal taste', '/images/new-flavor.png');
-```
-
-## Adding Flavor Images
-
-1. Download images from [drinkwaterloo.com/flavors](https://www.drinkwaterloo.com/flavors/)
-2. Save them to `public/images/` (e.g., `black-cherry.png`)
-3. Update the flavor in Supabase:
-
-```sql
-UPDATE flavors SET image_url = '/images/black-cherry.png' WHERE name = 'Black Cherry';
-```
-
-## Deploying to Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) and import your repository
-3. Add environment variables in Vercel project settings:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
-4. Deploy!
-
-Your site will be live at `your-project.vercel.app`
-
-### Custom Domain (Later)
-
-To add a custom domain:
-1. Go to your Vercel project settings
-2. Navigate to **Domains**
-3. Add your domain and follow DNS configuration instructions
+---
 
 ## Project Structure
 
 ```
 waterloo-rankings/
 ├── public/
-│   └── images/           # Flavor images
+│   └── images/           # Flavor and office images
 ├── src/
 │   ├── components/       # Reusable UI components
-│   ├── pages/            # Route pages (Home, Vote, Results)
-│   ├── lib/              # Supabase client & utilities
-│   ├── App.jsx           # Router setup
-│   └── main.jsx          # Entry point
+│   │   ├── FlavorCard    # Displays flavor with image and selection state
+│   │   ├── StarRating    # Interactive 1-5 star input
+│   │   ├── LeaderboardChart  # Horizontal bar chart with Recharts
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home          # Office selection
+│   │   ├── Vote          # Two-step voting flow
+│   │   └── Results       # Monthly results + all-time leaderboard
+│   └── lib/
+│       ├── supabase.js   # Database client
+│       └── voteStorage.js # Voter ID management
 ├── supabase/
-│   └── schema.sql        # Database schema
+│   ├── schema.sql        # Database schema and seed data
+│   └── README.md         # Monthly administration guide
 └── package.json
 ```
 
+---
+
 ## Future Enhancements
 
-- [ ] ELO ranking system using head-to-head data
-- [ ] Community insights integration
-- [ ] Admin panel for easier monthly updates
-- [ ] Historical monthly results archive
+- [ ] ELO ranking system using head-to-head matchup data
+- [ ] Historical view of past monthly results
+- [ ] Public sentiment ranking of each flavor based on internet data
