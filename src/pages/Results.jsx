@@ -17,6 +17,17 @@ function Results() {
 
   const officeName = office === 'austin' ? 'Austin' : 'Charlotte'
 
+// Format a month string from `YYYY-MM` to `Mon YYYY` (e.g. "Feb 2026")
+function formatMonth(ym) {
+  if (!ym) return ''
+  const parts = ym.split('-')
+  if (parts.length !== 2) return ym
+  const year = Number(parts[0])
+  const month = Number(parts[1]) - 1
+  const d = new Date(year, month, 1)
+  return d.toLocaleString('en-US', { month: 'short', year: 'numeric' })
+}
+
   useEffect(() => {
     loadResults()
   }, [office])
@@ -181,7 +192,7 @@ function Results() {
       {monthlyResults && (
         <div>
           <h2 className="text-2xl font-bold text-slate-800 mb-4">
-            {officeName} - {getCurrentMonth()} Results
+            {officeName} - {formatMonth(getCurrentMonth())} Results
           </h2>
 
           <div className="bg-white rounded-xl shadow-md p-6">

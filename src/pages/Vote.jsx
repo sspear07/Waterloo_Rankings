@@ -5,6 +5,17 @@ import { getVoterId, getCurrentMonth } from '../lib/voteStorage'
 import FlavorCard from '../components/FlavorCard'
 import StarRating from '../components/StarRating'
 
+// Format a month string from `YYYY-MM` to `Mon YYYY` (e.g. "Feb 2026")
+function formatMonth(ym) {
+  if (!ym) return ''
+  const parts = ym.split('-')
+  if (parts.length !== 2) return ym
+  const year = Number(parts[0])
+  const month = Number(parts[1]) - 1
+  const d = new Date(year, month, 1)
+  return d.toLocaleString('en-US', { month: 'short', year: 'numeric' })
+}
+
 function Vote() {
   const { office } = useParams()
   const navigate = useNavigate()
@@ -146,7 +157,7 @@ function Vote() {
     <div className="space-y-8">
       <div className="text-center">
         <h2 className="text-2xl font-bold text-slate-800 mb-2">
-          {officeName} Office - {getCurrentMonth()}
+          {officeName} Office - {formatMonth(getCurrentMonth())}
         </h2>
         <p className="text-slate-600">
           {step === 1 && "Which flavor is your favorite?"}
