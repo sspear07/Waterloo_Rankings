@@ -4,8 +4,8 @@ function OfficeSelector() {
   const navigate = useNavigate()
 
   const offices = [
-    { id: 'austin', name: 'Austin', emoji: '🤠' },
-    { id: 'charlotte', name: 'Charlotte', emoji: '🏙️' },
+    { id: 'austin', name: 'Austin', image: '/austin.png' },
+    { id: 'charlotte', name: 'Charlotte', image: '/charlotte.png' },
   ]
 
   return (
@@ -14,12 +14,9 @@ function OfficeSelector() {
         <button
           key={office.id}
           onClick={() => navigate(`/vote/${office.id}`)}
-          className="bg-white rounded-xl shadow-md p-8 hover:shadow-lg transition-all duration-200 hover:scale-[1.02] flex flex-col items-center gap-4"
+          className="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition-all duration-200 hover:scale-[1.02] flex flex-col items-center gap-2"
         >
-          <span className="text-5xl">{office.emoji}</span>
-          <span className="text-xl font-semibold text-slate-800">
-            {office.name} Office
-          </span>
+          <img src={office.image} alt={office.name} className="h-80 w-80 object-contain" />
           <span className="text-sm text-slate-500">
             Vote for this month's flavors
           </span>
