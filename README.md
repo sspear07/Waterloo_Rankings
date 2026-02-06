@@ -2,6 +2,8 @@
 
 A simple web app for employees to rank Waterloo seltzer flavors available in company fridges at Austin and Charlotte offices.
 
+Visit the site at: https://waterloorankings.vercel.app/
+
 ## Features
 
 - Vote on this month's two flavors for your office
